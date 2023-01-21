@@ -2,6 +2,8 @@ import db from "../../DataBase/DataBase.js";
 import IconoInformativo from "./IconoInf";
 import icoInstagram from "../../assets/Img/icons/instagram.png"
 import iconFacebook from "../../assets/Img/icons/facebook.png"
+import iconCorreo from '../../assets/Img/icons/correo.png'
+import iconUbicacion from '../../assets/Img/icons/ubicacion.png'
 
 function Footer() {
     return ( 
@@ -11,9 +13,9 @@ function Footer() {
           
           <IconoInformativo direccion={iconFacebook}texto={db.textIcon.facebook}/>
 
-          <IconoInformativo direccion={db.infoIcons.iconCorreo}texto={db.textIcon.correo}/>
+          <IconoInformativo direccion={iconCorreo}texto={db.textIcon.correo}/>
     
-          <IconoInformativo direccion={db.infoIcons.iconUbicacion}texto={db.textIcon.ubicacion}/>        
+          <IconoInformativo direccion={iconUbicacion}texto={db.textIcon.ubicacion}/>        
            
       
         </>

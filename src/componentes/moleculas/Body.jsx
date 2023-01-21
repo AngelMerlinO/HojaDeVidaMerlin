@@ -1,16 +1,17 @@
 import Card from "./Card";
 import db from "../../DataBase/DataBase";
 import '../../assets/Styles/cuerpo.css'
-
+import iconEstudiante from "../../assets/Img/icons/StudentMale.png"
+import iconImaginacion from '../../assets/Img/icons/Imaginacion.png'
 function Body() {
     return (
         <>  
         <div className="cont-cuerpo">
         <div>
-            <Card direcIcon={db.infoIcons.iconEstudiante} titulo={db.textIcon.estudiante} texto={db.texto.historiaAcademica}/>
+            <Card direcIcon={iconEstudiante} titulo={db.textIcon.estudiante} texto={db.texto.historiaAcademica}/>
             </div>
             <div>
-            <Card direcIcon={db.infoIcons.iconImaginacion} titulo={db.textIcon.imaginacio} texto={db.texto.historiaAcademica}/>
+            <Card direcIcon={iconImaginacion} titulo={db.textIcon.imaginacio} texto={db.texto.historiaAcademica}/>
             </div>
 
         </div>
