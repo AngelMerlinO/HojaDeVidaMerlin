@@ -1,11 +1,11 @@
 .divRelleno{
-position: absolute;
-width: 213px;
-height: 57px;
-top: 0px;
-left: 120px;
-
-
+width: 100%;
+height: 100%;
 background: #A6BB8D;
 border-radius: 20px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
 }

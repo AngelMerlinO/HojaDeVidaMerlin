@@ -15,6 +15,11 @@ function App() {
    <div id="cuerpo">
         <Body/>
    </div>
+   
+   <div id="cuerpo-abajo">
+      <Header/>
+   </div>
+
    <div id="pie">
       <Footer/>
    </div>

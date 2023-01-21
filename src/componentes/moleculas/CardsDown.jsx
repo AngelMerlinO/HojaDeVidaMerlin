@@ -1,15 +1,15 @@
 import CardDown from "./CardDown";
-
+import '../../assets/Styles/CardsDown.css'
 function CardsDown() {
     return (
-        <div className="container">
-            <div className="cardUno">
+        <div className="container1">
+            <div className="card-down">
                 <CardDown/>
             </div>
-            <div className="cardDos">
+            <div className="card-down">
                 <CardDown/>
             </div>
-            <div className="cardTres">
+            <div className="card-down">
                 <CardDown/>
             </div>
         
