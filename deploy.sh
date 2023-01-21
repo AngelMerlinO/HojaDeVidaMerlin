@@ -21,9 +21,9 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://AngelMerlinO.github.io
-# git push -f git@github.com:AngelMerlinO/Cv_ANGEL.github.io.git main
+# git push -f git@github.com:AngelMerlinO/HojaDeVidaMerlin.github.io.git main
 
-# if you are deploying to https://AngelMerlinO.github.io/Cv_ANGEL
-# git push -f git@github.com:AngelMerlinO/Cv_ANGEL.git main:gh-pages
+# if you are deploying to https://AngelMerlinO.github.io/HojaDeVidaMerlin
+# git push -f git@github.com:AngelMerlinO/HojaDeVidaMerlin.git main:gh-pages
 
 cd -

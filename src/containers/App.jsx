@@ -4,7 +4,7 @@ function App() {
     return (
         <BrowserRouter>
         <Routes>
-                <Route path="/Cv_ANGEl/" element={<Home/>}/>
+                <Route path="/HojaDeVidaMerlin/" element={<Home/>}/>
         </Routes>
         </BrowserRouter>
       );
