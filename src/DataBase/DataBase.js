@@ -10,7 +10,7 @@
         redesSociales:["@angelxmxx","Angel Merlin","221255@ids.upchiapas.edu.mx","San Pablo Huixtepec,Oax."]
     },
     infoIcons:{
-        iconFaceboo:"../src/assets/Img/icons/Facebook.png",
+        iconFaceboo:"Facebook.png",
         iconInstagram:"../src/assets/Img/icons/Instagram.png",
         iconCorreo: "../src/assets/Img/icons/correo.png",
         iconImaginacion:"../src/assets/Img/icons/Imaginacion.png",
