@@ -1,10 +1,11 @@
 import db from "../../DataBase/DataBase.js";
 import IconoInformativo from "./IconoInf";
+import icoInstagram from "../../assets/Img/icons/facebook.png"
 function Footer() {
     return ( 
         <>
         
-          <IconoInformativo direccion={db.infoIcons.iconInstagram}texto={db.textIcon.instagram}/>
+          <IconoInformativo direccion={icoInstagram}texto={db.textIcon.instagram}/>
           
           <IconoInformativo direccion={db.infoIcons.iconFaceboo}texto={db.textIcon.facebook}/>
 

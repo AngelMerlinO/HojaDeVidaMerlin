@@ -10,7 +10,7 @@
         redesSociales:["@angelxmxx","Angel Merlin","221255@ids.upchiapas.edu.mx","San Pablo Huixtepec,Oax."]
     },
     infoIcons:{
-        iconFaceboo:"Facebook.png",
+        iconFaceboo:"../src/assets/Img/icons/Facebook.png",
         iconInstagram:"../src/assets/Img/icons/Instagram.png",
         iconCorreo: "../src/assets/Img/icons/correo.png",
         iconImaginacion:"../src/assets/Img/icons/Imaginacion.png",
@@ -29,7 +29,7 @@
         historiaAcademica:"Estudia primaria en la escuela primaria Leoncio Gonzalez de la comunidad de San pablo huixtepec,tiempo despues fui a la"+
         "Escuela secundaria tecnica numero 25 de la misma comunidad en la cual aprobe todas mis materias en tiempo y forma y como siguiente curse el bachillerato en "+
         "un colegio de bachilleres del estado de Oaxaca plantel 61 San Bartolo Coyotepec",
-        habilidades:["intervencion","comunicacion","organizacion","lidera","liderazgo"]
+        habilidades:["intervencion","comunicacion","organizacion","lidera"]
     }
 }
 export default db;
