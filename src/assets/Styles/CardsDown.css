@@ -1,0 +1,29 @@
+.container{
+    position: absolute;
+    width: 1377px;
+    height: 230px;
+    left: 10px;
+    top: 520px;
+    }
+    .carUno{
+    position: absolute;
+    width: 445px;
+    height: 144px;
+ 
+    top: 906px;
+    }
+    
+.cardTres{
+        position: absolute;
+    width: 445px;
+    height: 144px;
+    left: 963px;
+    top: 906px;
+    }
+.cardDos{
+    position: absolute;
+    width: 445px;
+    height: 144px;
+    left: 497px;
+    top: 906px;
+}

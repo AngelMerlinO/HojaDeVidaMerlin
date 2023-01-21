@@ -1,18 +1,18 @@
 import Title from "../atoms/Title";
-import  IconEstudiante from '../atoms/'
-function Card() {
-    return ( 
-        <div>
-            <div>
-            <Title msn="Historia Academica"/>
-         </div>
-         <div>
-            <IconEstudiante></IconEstudiante>
-         </div>
+import Text from "../atoms/Text";
+import Icon from "../atoms/icon";
 
-        </div>
+
+function Card({titulo,texto,direcIcon}) {
+    return ( 
+        <>
+       
+        <Icon direc={direcIcon}/>
+        <Title msn={titulo}/>
+        <Text texto={texto}/>
         
         
+        </>
      );
 }
 
