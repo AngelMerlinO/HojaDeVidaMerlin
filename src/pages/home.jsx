@@ -3,7 +3,7 @@ import Footer from "../componentes/moleculas/Footer"
 import Body from "../componentes/moleculas/body";
 import '../assets/Styles/App.css'
 import db from "../DataBase/DataBase";
-function App() {
+function Home() {
 
   return (
   <div className="App">
@@ -28,4 +28,4 @@ function App() {
   )
 }
 
-export default App;
+export default Home;
