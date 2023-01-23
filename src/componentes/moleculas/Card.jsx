@@ -1,17 +1,19 @@
-import Title from "../atoms/Title";
-import Text from "../atoms/Text";
-import Icon from "../atoms/icon";
-
 
 function Card({titulo,texto,direcIcon}) {
     return ( 
         <>
-       
-        <Icon direc={direcIcon}/>
-        <Title msn={titulo}/>
-        <Text texto={texto}/>
-        
-        
+  
+            <div>
+            <img src={direcIcon} alt="" />
+            </div>
+
+            <div>
+                <h2>{titulo}</h2>
+            </div>
+            <div>
+                <p>{texto}</p>
+            </div> 
+      
         </>
      );
 }

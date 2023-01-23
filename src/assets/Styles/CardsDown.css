@@ -5,9 +5,21 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 3%;
+    margin-top: 3%;
     }
 .card-down{
     width: 100%;
     height: 100%;
-    margin: 1%;    
+    margin: 4%;    
 }
+.sub-verde{
+    width: 100%;
+    height: 100%;
+    background: #A6BB8D;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }

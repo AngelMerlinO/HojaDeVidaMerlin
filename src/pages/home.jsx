@@ -1,15 +1,15 @@
-import Header from "../componentes/moleculas/Header";
-import Footer from "../componentes/moleculas/Footer"
-import Body from "../componentes/moleculas/body";
+import Header from "../componentes/organismos/Header";
+import Footer from "../componentes/organismos/Footer"
+import Body from "../componentes/organismos/Body";
+import Cabeza from "../componentes/atoms/Cabeza";
 import '../assets/Styles/App.css'
-import db from "../DataBase/DataBase";
 function Home() {
 
   return (
   <div className="App">
 
    <div id="cabeza">
-    <h1>{db.infPersonal.nombre}</h1>
+      <Cabeza/>
    </div>
 
    <div id="cuerpo">
